@@ -18,7 +18,7 @@ public class Main {
         //System.out.println(academician1.getDepartment()+"\n"+academician1.getTitle());
         //academician1.enterLesson();
 
-        //Officer officer1 = new Officer("Harry Osborn","05428582639","murat@icloud.com","Finance","09:00-18:00");
+        //Officer officer1 = new Officer("Harry Osborn","05428582639","harry@icloud.com","Finance","09:00-18:00");
         //officer1.workable();
         //System.out.println(officer1.getOfficeDepartment());
 
@@ -29,10 +29,10 @@ public class Main {
         //System.out.println(lecturer1.getDoorNumber());
         //lecturer1.enterLesson();
 
-        Staff staff = new Staff("Venom","0545124512","ahmet@hotmail.com","Guard","00:00-10:00","Protect");
+        Staff staff = new Staff("Venom","0545124512","venom@hotmail.com","Guard","00:00-10:00","Protect");
         staff.workable("SECURITY");
         //staff.watch();
-        InformationTechnology iT = new InformationTechnology("Sandman","654605405","ipek@mail.com","Software Development","10:00 - 19:00","Java Developer");
+        InformationTechnology iT = new InformationTechnology("Sandman","654605405","sandman@mail.com","Software Development","10:00 - 19:00","Java Developer");
         iT.workable("IT");
 
         //Method overloading
